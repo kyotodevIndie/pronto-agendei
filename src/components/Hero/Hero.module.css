@@ -1,0 +1,145 @@
+.heroContainer {
+  padding-top: 100px;
+  background-color: #ddfdec;
+  display: flex;
+  flex-direction: row;
+}
+
+.heroContainer > div {
+  margin: 150px 10px 140px 80px;
+}
+
+.heroContainer img:nth-child(3) {
+  margin-left: auto;
+}
+
+.heroContainer > div > h1 {
+  font-size: 40px;
+  font-weight: 300;
+  width: 435px;
+  color: #28333e;
+  margin-bottom: 20px;
+}
+
+.heroContainer strong {
+  font-weight: 700;
+}
+
+.heroContainer > div > p > a {
+  margin-top: 18px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #28333e;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.heroContainer > div > p > a > img {
+  margin-right: 5px;
+  margin-top: -2px;
+}
+
+.heroContainer > div > div > a {
+  margin-top: 22px;
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #1a89d9;
+  text-decoration: none;
+  border-top: 1px solid #c4f4da;
+  display: flex;
+  justify-content: center;
+}
+
+.heroContainer > div > div > a > img {
+  margin-right: 7px;
+}
+
+@media (max-width: 1400px) {
+  .heroContainer img:nth-child(3) {
+    width: 50%;
+  }
+}
+@media (max-width: 1300px) {
+  .heroContainer img:nth-child(3) {
+    width: 40%;
+  }
+}
+@media (max-width: 1090px) {
+  .heroContainer > img:nth-child(1) {
+    display: none;
+  }
+  .heroContainer img:nth-child(3) {
+    width: 90%;
+    margin-right: 0;
+  }
+  .heroContainer {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heroContainer > div {
+    margin: 0px 230px;
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.modalContainer p {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #8b8fa1;
+}
+
+.modalContainer a {
+  width: auto;
+  text-decoration: none;
+  font-family: 400 Metropolis;
+  padding: 13px 20px;
+  border-radius: 8px;
+  font-size: 12px;
+  background-color: #18e176;
+  color: #fff !important;
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.modalContainer a:hover {
+  background-color: #16af5d;
+}
+
+@media (max-width: 700px) {
+  .heroContainer > img:nth-child(1) {
+    display: none;
+  }
+  .heroContainer img:nth-child(3) {
+    width: 90%;
+    margin-right: 0;
+  }
+  .heroContainer {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heroContainer > div {
+    margin: 0px 25px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .heroContainer > div > h1 {
+    width: auto;
+  }
+}

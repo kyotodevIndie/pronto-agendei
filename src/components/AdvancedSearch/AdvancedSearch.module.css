@@ -1,0 +1,54 @@
+.advancedSearchContainer {
+  margin: 72px 0px 0px 15px;
+  background: #f9f9f9;
+}
+
+.advancedSearchContainer h1 {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+
+  color: #828282;
+}
+
+.advancedSearchContainer h2 {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+
+  color: #828282;
+}
+.advancedSearchContainer > div > a {
+  text-decoration: none;
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #1a89d9;
+}
+
+.advancedSearchContainer label {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+
+  color: #828282;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: url(check_radio_sheet.png) left top no-repeat;
+}

@@ -1,0 +1,56 @@
+.navbarContainer {
+  position: absolute;
+  top: 0;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #c4f4da;
+  padding: 20px 0px;
+  margin: 0px 35px;
+}
+
+.navbarContainer img {
+  width: 270px;
+  margin-left: 180px;
+}
+
+.navbarContainer div {
+  position: relative;
+  right: -194px;
+}
+@media (max-width: 1490px) {
+  .navbarContainer div {
+    right: -170px;
+  }
+}
+@media (max-width: 1350px) {
+  .navbarContainer div {
+    right: -110px;
+  }
+}
+@media (max-width: 1150px) {
+  .navbarContainer div {
+    right: -100px;
+  }
+}
+@media (max-width: 1050px) {
+  .navbarContainer {
+    margin: 0px 12px;
+    width: 98%;
+  }
+
+  .navbarContainer img {
+    margin-left: 0px;
+  }
+
+  .navbarContainer div {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .navbarContainer {
+    margin: 0px 0px;
+    width: 98%;
+  }
+}

@@ -1,0 +1,37 @@
+.bannerContainer {
+  width: auto;
+  height: 230px;
+  margin: 109px 70px 58px 70px;
+  background: url("../../../public/banner_01.svg") no-repeat center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerContainer p {
+  width: 380px;
+  margin-right: 35px;
+  margin-left: -100px;
+
+  color: #fff;
+}
+
+@media (max-width: 1400px) {
+  .bannerContainer {
+    width: auto;
+    height: 800px;
+    margin: 100px 20px 100px 20px;
+    background: url("../../../public/phone_02.svg") center no-repeat #3a65fd;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  .bannerContainer p {
+    width: auto;
+    margin: 600px 20px 30px 20px;
+    text-align: center;
+  }
+}

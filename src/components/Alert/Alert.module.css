@@ -1,0 +1,43 @@
+.alertContainer {
+  background: #e9f1f8;
+  border-radius: 8px;
+  width: auto;
+  margin: 57px 70px 120px 70px;
+  padding: 37px 123px 37px 123px;
+}
+
+.alertContainer img {
+  position: relative;
+  width: 11.43px;
+  height: 11.43px;
+  float: right;
+  left: 110px;
+  top: -21px;
+  cursor: pointer;
+}
+
+.alertContainer p {
+  color: #9fa4b4;
+  text-align: center;
+  /* font-weight: 400; */
+  font-size: 16px;
+}
+
+.alertContainer p > span {
+  color: #28333e;
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .alertContainer {
+    background: #e9f1f8;
+    border-radius: 8px;
+    width: auto;
+    margin: 60px 15px 66px 15px;
+    padding: 22px 32px;
+  }
+
+  .alertContainer img {
+    display: none;
+  }
+}

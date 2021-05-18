@@ -1,0 +1,48 @@
+.cookiesContainer {
+  position: fixed;
+  bottom: 0;
+  background-color: #f1f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 160px;
+}
+.cookiesContainer p {
+  padding: 26px 515px 10px 515px;
+  text-align: center;
+  font-size: 12px;
+  color: #4e4b4b;
+}
+
+.cookiesContainer > a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 13px 40px;
+  border-radius: 8px;
+  background-color: #1a89d9;
+  color: #fff !important;
+  cursor: pointer;
+}
+.cookiesContainer > a:hover {
+  background-color: #1a70af;
+}
+
+@media (max-width: 1295px) {
+  .cookiesContainer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #f1f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 190px;
+  }
+  .cookiesContainer p {
+    text-align: center;
+    font-size: 12px;
+    color: #4e4b4b;
+    padding: 26px 12px;
+  }
+}

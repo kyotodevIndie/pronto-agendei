@@ -1,0 +1,101 @@
+.imageContentContainer {
+  width: auto;
+  margin: 130px 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imageContentContainer > div > h1 {
+  width: 339px;
+  margin-top: 34px;
+  font-weight: 700;
+  font-size: 45px;
+  color: #28333e;
+}
+
+.imageContentContainer > div > p {
+  width: 308px;
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #8b8fa1;
+}
+
+.imageContentContainer > div > div {
+  margin-top: 69px;
+  margin-left: -20px;
+}
+
+.imageContentContainer > div > div > a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 18.5px 46px;
+  border-radius: 8px;
+  background-color: #1a89d9;
+  color: #fff;
+  margin: 20px 20px;
+}
+.imageContentContainer > div > div > a:hover {
+  background-color: #1a70af;
+}
+
+@media (max-width: 1280px) {
+  .imageContentContainer img {
+    width: 60%;
+  }
+}
+@media (max-width: 1150px) {
+  .imageContentContainer {
+    margin: 130px 130px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imageContentContainer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imageContentContainer > div > h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .imageContentContainer > div > p {
+    text-align: center;
+  }
+
+  .imageContentContainer > div > div {
+    margin-top: 30px;
+  }
+  .imageContentContainer img {
+    width: auto;
+  }
+}
+
+@media (max-width: 760px) {
+  .imageContentContainer {
+    margin: 130px 20px;
+  }
+  .imageContentContainer img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 350px) {
+  .imageContentContainer {
+    margin: 130px 20px;
+  }
+  .imageContentContainer img {
+    width: 90%;
+  }
+}

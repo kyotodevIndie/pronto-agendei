@@ -1,0 +1,18 @@
+.buttonContainer {
+  margin: 20px 0px;
+  width: auto;
+}
+
+.buttonContainer > a {
+  width: auto;
+  text-decoration: none;
+  font-family: 400 Metropolis;
+  padding: 13px 20px;
+  border-radius: 8px;
+  font-size: 12px;
+  background-color: #1a89d9;
+  color: #fff;
+}
+.buttonContainer > a:hover {
+  background-color: #1a70af;
+}

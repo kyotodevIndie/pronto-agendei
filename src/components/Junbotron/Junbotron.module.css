@@ -1,0 +1,108 @@
+.junbotronContainer {
+  height: 100vh;
+  width: auto;
+  margin-top: 180px;
+  margin-bottom: 70px;
+  background: url("../../../public/image_02.svg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.junbotronContainer > div > img {
+  width: 208px;
+}
+
+.junbotronContainer > div {
+  width: auto;
+  margin: 0px 220px 339px 600px;
+  padding-top: 80px;
+  display: flex;
+}
+
+.junbotronContainer > div > div {
+  width: 360px;
+  margin-left: 30px;
+  color: #fff;
+}
+.junbotronContainer > div > div > h1 {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.junbotronContainer > div > div > h1 > strong {
+  font-weight: 700;
+}
+
+.junbotronContainer > div > div p:nth-child(1) {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  border-bottom: 4px solid #fff;
+}
+
+.junbotronContainer > div > div p:nth-child(3) {
+  width: 337px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+.junbotronContainer > div > div > a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 18.5px 70px;
+  border-radius: 8px;
+  background-color: #1a89d9;
+  color: #fff;
+}
+.junbotronContainer a:hover {
+  background-color: #1a70af;
+}
+
+@media (max-width: 1200px) {
+  .junbotronContainer {
+    width: auto;
+    height: auto;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #18e176;
+  }
+
+  .junbotronContainer > div {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+  }
+
+  .junbotronContainer > div > div {
+    margin: 10px 100px;
+    color: #fff;
+    text-align: center;
+  }
+  .junbotronContainer > div > div > h1 {
+    font-size: 35px;
+  }
+  .junbotronContainer > div > div > p {
+    width: auto;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1550px) {
+  .junbotronContainer > div {
+    margin: 0px 220px 339px 800px;
+  }
+}
+@media (min-width: 2000px) {
+  .junbotronContainer > div {
+    margin: 0px 220px 339px 1500px;
+  }
+}
